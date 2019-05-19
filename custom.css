@@ -1,47 +1,51 @@
-.customButton{
+.customButton {
     font-size: 50px;
 }
-.btn-round-lg{
+
+.btn-round-lg {
     border-radius: 50px;
 }
 
-.btn-color-custom{
-    background-color: rgb(244,164,31);
-    border-color: rgb(244,164,31);
-    font-size: 50px;
+.btn-color-custom {
+    background-color: rgb(244, 164, 31);
+    border-color: rgb(244, 164, 31);
+    font-size: 55px;
     padding: 20px;
 }
-.btn-color-custom:hover{
-    background-color: rgb(255, 136, 0);
-    border-color: rgb(255, 136, 0);
-}
-.btn-color-custom:active{
-    background-color: rgb(255, 136, 0);
-    border-color: rgb(255, 136, 0);
-}
-.btn-color-custom:hover:active{
+
+.btn-color-custom:hover {
     background-color: rgb(255, 136, 0);
     border-color: rgb(255, 136, 0);
 }
 
-.main-page{
+.btn-color-custom:active {
+    background-color: rgb(255, 136, 0);
+    border-color: rgb(255, 136, 0);
+}
+
+.btn-color-custom:hover:active {
+    background-color: rgb(255, 136, 0);
+    border-color: rgb(255, 136, 0);
+}
+
+.main-page {
     font-size: 30px;
     font-family: 'Merienda One';
     font-style: italic;
     /* color: rgb(169,207,57); */
 }
 
-.main-second-row{
+.main-second-row {
     padding-top: 200px;
 }
 
-.main-header-fix{
+.main-header-fix {
     /* background-image: url("./img/portfolio/farmer-market.jpg") ; */
     background-size: cover;
     position: relative;
 }
 
-.main-header-fix-2{
+.main-header-fix-2 {
     background-color: rgba(197, 197, 197, 0.3);
     position: absolute;
     top: 0;
@@ -50,15 +54,128 @@
     height: 100%;
 }
 
-.seller-fix{
+.seller-fix {
     padding: 40px;
 }
 
-.seller-main-background-change{
-    background-color: rgb(244,164,31) !important;
+.seller-main-background-change {
+    background-color: rgb(244, 164, 31) !important;
 }
 
-.btn-primary{
-    background-color: rgb(244,164,31);
-    border-color: rgb(244,164,31);
+.btn-primary {
+    background-color: rgb(244, 164, 31);
+    border-color: rgb(244, 164, 31);
+}
+
+
+/* v0.1 fixes */
+.main-stack-1 {
+    background-color: white;
+    padding-top: 30px;
+    margin-top: 15px;
+}
+
+.main-stack-1-img {
+    padding-right: 20px;
+}
+
+.main-stack-1-name {
+    color: rgb(169, 207, 57) !important;
+    font-size: 50px;
+    font-family: 'Comfortaa';
+    align-content: center;
+    margin-top: 10px;
+}
+
+.main-stack-1-tagline {
+    color: rgb(64, 64, 63) !important;
+    font-size: 25px;
+    font-family: 'Comfortaa';
+    align-content: center;
+    margin-top: -25px;
+    padding-left: 25px;
+}
+
+.main-stack-2{
+    padding-top: -40px;
+}
+
+.main-stack-2-about {
+    color: white;
+    font-size: 50px;
+    font-family: 'Comfortaa';
+    align-content: center;
+    margin-top: -70px;
+    margin-left: -55px;
+}
+
+.main-stack-2-line {
+    /* border-bottom: 5px solid white; */
+    margin-left: -55px;
+    margin-top: -50px;
+    font-size: 50px;
+    background: transparent;
+    border-radius: 10px;
+    height: 7px;
+    width: 100px;
+    box-shadow: 0 55px 0 0 #fff;
+    font-family: sans-serif;
+}
+
+.main-stack-2-content {
+    color: rgb(64, 64, 63);
+    font-size: 25px;
+    font-family: 'Comfortaa';
+    align-content: center;
+    margin-left: -55px;
+    margin-top: 75px;
+}
+
+.main-stack-3-top{
+    color: rgb(255, 136, 0);
+    font-size: 75px;
+    font-weight: 500;
+    font-family: 'Comfortaa';
+    align-content: center;
+    margin-left: 65px;
+    margin-top: 55px;
+}
+.main-stack-3-row-2{
+    margin-top: 150px;
+    margin-left: 50px;
+    align-content: center;
+    padding-bottom: 100px;
+}
+
+.main-stack-3-row-2-delim{
+    color: rgb(255, 136, 0);
+    font-size: 75px;
+    font-family: 'Comfortaa';
+    align-content: center;
+    margin-left: -60px;
+}
+
+.main-stack-3-description{
+    color: rgb(64, 64, 63);
+    font-size: 27px;
+    font-family: 'Comfortaa';
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.main-footer{
+    margin-top: -50px;
+    /* margin-bottom: 1000px; */
+}
+
+.main-footer-copyright{
+    color: white;
+    text-align: center;
+    /* padding-top: 50px; */
+    margin-top: 35px;
+    margin-left: -125px;
+    margin-bottom: -50px;
 }

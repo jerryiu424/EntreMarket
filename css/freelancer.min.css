@@ -79,18 +79,26 @@ section h2 {
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
+  background: #F4A41F;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #A9CF39;
+  color: #fff;
+  background: #A9CF39;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:visited {
+  color: #fff;
+  background: #F4A41F;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
+  background: #F4A41F;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #A9CF39;
+  color: #fff;
+  background: #F4A41F;
 }
 
 #mainNav .navbar-toggler {
@@ -115,11 +123,16 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #A9CF39;
+    background: #F4A41F;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover , #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
     background: #A9CF39;
+  }
+
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:visited{
+    color: #fff;
+    background: #F4A41F;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -285,8 +298,8 @@ form .row:first-child .floating-label-form-group {
 
 .footer {
   padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #000000;
+  padding-bottom: -5rem;
+  background-color: #F4A41F;
   color: #fff;
 }
 
@@ -295,7 +308,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #A9CF39;
+  color: #40403f;
 }
 
 a:focus, a:hover, a:active {
@@ -311,7 +324,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-secondary {
-  background-color: #A9CF39 !important;
+  background-color: #F4A41F !important;
 }
 
 .text-primary {
